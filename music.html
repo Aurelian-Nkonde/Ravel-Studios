@@ -7,59 +7,85 @@
     <title>Music</title>
 </head>
 <body>
-    <div class="container mx-auto p-5">
-        <div class="flex justify-center mt-4">
-            <h1 class="font-sans mr-1 md:text-4xl lg:text-5xl tracking-wider text-gray-500 uppercase font-normal">Ravel</h1>
-            <h1 class="flex flex-col">
-                <span class="font-sans-serif md:text-4xl lg:text-5xl tracking-wider text-gray-900 font-bold uppercase">Studios</span>
-                <span class="font-sans md:base lg:text-lg font-bold uppercase tracking-wider">recording studio</span>
-            </h1>
+
+        <!-- navigation -->
+        <div class="container mx-auto p-5">
+            <div class="flex justify-center mt-4">
+                <h1 class="font-sans mr-1 md:text-4xl lg:text-5xl tracking-wider text-gray-500 uppercase font-normal">Ravel</h1>
+                <h1 class="flex flex-col">
+                    <span class="font-sans-serif md:text-4xl lg:text-5xl tracking-wider text-gray-900 font-bold uppercase">Studios</span>
+                    <span class="font-sans md:base lg:text-lg font-bold uppercase tracking-wider">recording studio</span>
+                </h1>
+            </div>
+            <ul class="md:flex justify-center mt-8 hidden">
+                <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/index.html">Home</a></li>
+                <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/music.html">Music</a></li>
+                <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/contact.html">Contact</a></li>
+                <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/blog.html">Blog</a></li>
+                <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/about.html">About</a></li>
+            </ul>
+            <div class="md:hidden btn">
+                <div class="container px-10 py-2 mx-auto">
+                   <div class="flex justify-between items-center">
+                       <div class=""></div>
+                       <button>
+                        <img src="/imgs/menu-button-svgrepo-com.svg" alt="" class="bg-black h-8 p-1">
+                       </button>
+                   </div>
+                </div>
+            </div>
         </div>
-        <ul class="md:flex justify-center mt-8 hidden">
-            <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/index.html">Home</a></li>
-            <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/music.html">Music</a></li>
-            <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/contact.html">Contact</a></li>
-            <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/blog.html">Blog</a></li>
-            <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/about.html">About</a></li>
-        </ul>
-    </div>
+    
+        <!-- menu  -->
+        <div class="container mb-5 mx-auto menu hidden md:hidden">
+            <div class="px-20">
+                <ul class="flex flex-col">
+                    <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/index.html">Home</a></li>
+                    <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/music.html">Music</a></li>
+                    <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/contact.html">Contact</a></li>
+                    <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/blog.html">Blog</a></li>
+                    <li class="mr-7 transition cursor-pointer duration-500 ease-in-out font-sans-serif text-gray-600 text-base tracking-wider border-b-2 border-white hover:border-black"><a href="/about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    
 
 
-    <div class="container mx-auto mt-8 p-4">
+    <div class="container mx-auto mt-8 py-10 px-4">
         <div class="max-w-4xl mx-auto">
-            <h1 class="font-sans-serif text-3xl font-bold py-8 tracking-wider capitalize text-gray-400">music tracks</h1>
+            <h1 class="font-sans-serif text-3xl font-bold py-8 tracking-wider capitalize text-gray-900">music tracks</h1>
             
-            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-200">
+            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-500">
                 <div class="mb-3">
-                    <h1 class="font-sans text-gray-500 text-base capitalize">title: <span class="ml-2 font-bold font-sans-serif tracking-wider">Matt Stell</span></h1>
-                    <h1 class="font-sans text-gray-500 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif tracking-wider">Prayed for u</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">artist: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Matt Stell</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">song: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Prayed for u</span></h1>
                 </div>
                 <audio controls class="outline-none pr-9 mx-auto md:pr-0">
                     <source src="/audio/Matt Stell - Prayed For You myfreemp3.vip .mp3" class="w-sm">
                 </audio>
             </div>
-            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-200">
+            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-500">
                 <div class="mb-3">
-                    <h1 class="font-sans text-gray-500 text-base capitalize">title: <span class="ml-2 font-bold font-sans-serif tracking-wider">Matt Stell</span></h1>
-                    <h1 class="font-sans text-gray-500 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif tracking-wider">Heroes</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Matt Stell</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">song: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Heroes</span></h1>
                 </div>
                 <audio controls class="outline-none pr-9 mx-auto md:pr-0">
                     <source src="/audio/Matt Stell, Jimmie Allen - Home in a Hometown myfreemp3.vip .mp3" class="w-sm">
                 </audio>
             </div>
-            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-200">
+            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-500">
                 <div class="mb-3">
-                    <h1 class="font-sans text-gray-500 text-base capitalize">title: <span class="ml-2 font-bold font-sans-serif tracking-wider">Tapinda Tapinda</span></h1>
-                    <h1 class="font-sans text-gray-500 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif tracking-wider">Winky D ft Gemma</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Winky D ft Gemma</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">song: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">New Track</span></h1>
                 </div>
                 <audio controls class="outline-none pr-9 mx-auto md:pr-0">
                     <source src="/audio/track.m4a" class="w-sm">
                 </audio>
             </div>
-            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-200">
+            <div class="block md:grid md:grid-cols-2 mb-6 p-2 mx-auto md:p-4 hover:border-green-300 transition duration-300 ease-in-out border-b-2 border-blue-200 rounded-lg shadow-lg bg-gray-500">
                 <div class="mb-3">
-                    <h1 class="font-sans text-gray-500 text-base capitalize">title: <span class="ml-2 font-bold font-sans-serif tracking-wider">Chitekete</span></h1>
-                    <h1 class="font-sans text-gray-500 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif tracking-wider">Winky D</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">Artist: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Winky D</span></h1>
+                    <h1 class="font-sans text-gray-200 text-base capitalize">song: <span class="ml-2 font-bold font-sans-serif text-gray-100 tracking-wider">Chitekete</span></h1>
                 </div>
                 <audio controls class="outline-none pr-9 mx-auto md:pr-0">
                     <source src="/audio/Winky D-Chitekete.mp3" class="w-sm">
@@ -69,6 +95,18 @@
         </div>
     </div>
 
+
+
+    <script>
+
+        const btn = document.querySelector('.btn')
+        const menu = document.querySelector('.menu')
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        })
+
+    </script>
 
 </body>
 </html>
